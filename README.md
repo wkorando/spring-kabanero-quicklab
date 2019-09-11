@@ -53,7 +53,7 @@ experimental	quarkus                  	0.1.5    	*default         	Quarkus runti
 experimental	vertx                    	0.1.1    	*default         	Eclipse Vert.x runtime for running Java applications   
 ```
 
-Organizations will have their own specific needs and requirements. For which custom stacks could be created to Custom stacks can be created to fill the needs of your organization, however Appsody has several pre-defined stacks as well. To view available stacks run this command:
+Organizations will have their own specific needs and requirements. For which custom stacks can be created, however Appsody has several pre-defined stacks as well. To view available stacks run this command:
 
 
 
@@ -73,7 +73,7 @@ cd appsody-spring
 appsody init java-spring-boot2
 ```
 
-After a few moments, appsody should finish initilizing the project. 
+After a few moments, appsody should finish initializing the project. 
 
 We can run the project locally with the following command:
 
@@ -83,13 +83,15 @@ appsody run
 
 This builds and starts up the Docker container running the Sprinng Boot app and makes it available at the standard Spring Boot port: [http://localhost:8080](http://localhost:8080).
 
+###Try changing the Java source code to see the code dynamically rebuilt and redeployed!
+
 To stop this application run the following command:
 
 ```
 appsody stop
 ```
 
-The cloud native world demands develop learning a lot of new skills that traditionally they didn't need to care about. Appsody helps to reduce this learning curve by helping with tasks like deploying to a kubernetes cluster. 
+The cloud native world demands developer learn a lot of new skills that traditionally they didn't need to care about. Appsody helps to reduce this learning curve by helping with tasks like deploying to a kubernetes cluster. 
 
 To deploy the application we just created to a kubernetes cluster, in this case a locally running instance of [minikube](https://github.com/kubernetes/minikube), run the following command:
 
