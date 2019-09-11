@@ -83,13 +83,13 @@ appsody run
 
 This builds and starts up the Docker container running the Sprinng Boot app and makes it available at the standard Spring Boot port: [http://localhost:8080](http://localhost:8080).
 
-###Try changing the Java source code to see the code dynamically rebuilt and redeployed!
-
 To stop this application run the following command:
 
 ```
 appsody stop
 ```
+
+### Deploying an Application to Kubernetes with Appsody 
 
 The cloud native world demands developer learn a lot of new skills that traditionally they didn't need to care about. Appsody helps to reduce this learning curve by helping with tasks like deploying to a kubernetes cluster. 
 
